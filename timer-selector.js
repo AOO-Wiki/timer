@@ -294,7 +294,7 @@ var TRANSLATIONS = {
   },
 };
 
-function getMessage(language, messageKey) {
+function getMessage(en, messageKey) {
   // Special case:
   // The 'test' language just echoes the message key back out.
   if (language === 'test') {
